@@ -58,4 +58,6 @@ models:
             description: amount of all items on the order after discounts and tax
             tests:
                 - not_null
-                
+
+          - name: order_ship_region
+            description: region the order ships to
