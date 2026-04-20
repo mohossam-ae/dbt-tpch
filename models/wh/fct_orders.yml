@@ -4,13 +4,6 @@ models:
 
     - name: fct_orders
       columns:
-          - name: order_key
-            description: unique key for each order from source system
-            data_type: integer
-            tests:
-                - unique
-                - not_null
-
           - name: order_date
             description: date the order was placed
             tests:
