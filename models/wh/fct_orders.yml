@@ -27,7 +27,7 @@ models:
             tests:
                 - not_null
                 
-          - name: order_priority_code
+          - name: priority_code
             tests:
                 - not_null
                 
