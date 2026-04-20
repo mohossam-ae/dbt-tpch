@@ -63,7 +63,7 @@ models:
             tests:
                 - not_null
 
-          - name: order_line_status_code
+          - name: line_status_code
             description: order line status
             tests:
                 - not_null
