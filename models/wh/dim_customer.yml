@@ -50,7 +50,7 @@ models:
           - name: customer_market_segment_name
             data_type: varchar
 
-          - name: valid_from
+          - name: effective_date
             description: SCD-2 effective-from timestamp.
             data_type: timestamp
             tests:
