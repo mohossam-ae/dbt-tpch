@@ -1,0 +1,12 @@
+version: 2
+
+models:
+
+    - name: rpt_raw_orders
+      description: Raw pass-through of fct_orders for ad-hoc exploration.
+      columns:
+          - name: order_key
+            description: unique key for each order, inherited from fct_orders
+            tests:
+                - unique
+                - not_null
