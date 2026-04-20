@@ -11,9 +11,9 @@ models:
                 - not_null
 
           - name: order_date
-            description: date the order was placed
+            description: timestamp when the order was placed by the customer
             tests:
-                - not_null 
+                - not_null
 
           - name: customer_key
             description: reference to `dim_customer`
