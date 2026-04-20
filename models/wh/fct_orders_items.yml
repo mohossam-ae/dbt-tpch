@@ -6,11 +6,13 @@ models:
       columns:
           - name: order_item_key
             description: unique key for each order item
+            data_type: integer
             tests:
                 - unique
                 - not_null
           - name: order_key
             description: unique key for each order from source system
+            data_type: integer
             tests:
                 - not_null
 
@@ -21,6 +23,7 @@ models:
 
           - name: customer_key
             description: reference to `dim_customer`
+            data_type: integer
             tests:
                 - not_null
                 - relationships:
@@ -34,6 +37,7 @@ models:
 
           - name: part_key
             description: reference to `dim_part`
+            data_type: integer
             tests:
                 - not_null
                 - relationships:
@@ -42,6 +46,7 @@ models:
 
           - name: supplier_key
             description: reference to `dim_supplier`
+            data_type: integer
             tests:
                 - not_null
                 - relationships:
