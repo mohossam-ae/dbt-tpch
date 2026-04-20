@@ -33,10 +33,6 @@ models:
             tests:
                 - not_null
                 
-          - name: order_clerk_name
-            tests:
-                - not_null
-                
           - name: shipping_priority
             tests:
                 - not_null
